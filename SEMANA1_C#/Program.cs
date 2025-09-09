@@ -27,6 +27,11 @@ namespace SEMANA1_C_
         }
         static void ejer2()
         {
+           Console.WriteLine("\"Victor\"");
+
+        }
+        static void ejer3()
+        {
             Console.Write("Ingrese un numero x: ");
             int x = int.Parse(Console.ReadLine());
             Console.Write("Ingrese un numero y: ");
@@ -34,14 +39,10 @@ namespace SEMANA1_C_
 
             double resu = (double)x / (double)y;
 
-            Console.WriteLine("Sumass: " +(x+y));
+            Console.WriteLine("Sumass: " + (x + y));
             Console.WriteLine("Resta: " + (x - y));
             Console.WriteLine("Multiplicación: " + (x * y));
-            Console.WriteLine("División: " + resu );
-
-        }
-        static void ejer3()
-        {
+            Console.WriteLine("División: " + resu);
 
 
         }
