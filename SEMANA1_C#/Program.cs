@@ -32,9 +32,9 @@ namespace SEMANA1_C_
             Console.Write("Ingrese un numero y: ");
             int y = Convert.ToInt32(Console.ReadLine());
 
-            double resu = x / y;
+            double resu = (double)x / (double)y;
 
-            Console.WriteLine("Suma: " +(x+y));
+            Console.WriteLine("Sumass: " +(x+y));
             Console.WriteLine("Resta: " + (x - y));
             Console.WriteLine("Multiplicación: " + (x * y));
             Console.WriteLine("División: " + resu );
